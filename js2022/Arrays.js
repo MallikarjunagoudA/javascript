@@ -281,11 +281,9 @@ const res =arr2.map((cv,i,arr)=>  cv*2 ).filter((cv,i,arr)=>cv>10)
 // console.log("original",arr2); 
 // console.log("newArr",res);
 
-//Reduce Method....
+// ****Reduce Method....
 // * Flatten an array means to convert the 3d or 2d array into a single dimensional array.
-
 // * The reduce() method executes a reducer function (that you provide) on each element of the array. resulting in a single output value.
-
 // * The reducer function takes four arguments:
 
 // +accumulator
@@ -328,7 +326,7 @@ var twoDarr =[
     console.log(twoDarr)
     console.log(flatArr)
 
-    */
+
 
 
     // * Filter()
@@ -342,3 +340,5 @@ var twoDarr =[
        return (cv%2==0)
    })
    console.log(val)
+
+       */
