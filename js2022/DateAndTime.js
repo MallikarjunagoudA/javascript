@@ -46,4 +46,4 @@ var currDate =new Date();
 // console.log(currDate.getTime())
 // console.log(currDate.getTimezoneOffset())
 
-
+//same we have set methods.
