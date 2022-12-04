@@ -7,17 +7,17 @@
     <title>we are practice js functions here</title>
   </head>
   <body>
-    <form action="calculate">
+    <form id="myform" action="/jsFunction.js">
         <p>parameter 1 : 
       <input type="text" id="param1" /> </br></br></p>
       <p>parameter 2 : 
       <input type="text" id="param2" /> </br></br></p>
       <p>operator :   
       <input type="text" id="operator" /> </br></br></p>
-      <button  name="calculate" type="submit" id="button"> calculate </button>
+      <input  name="calculate" type="button" id="button" value="calculate" onclick="calculateMethod()"/>
 
     </form>
-
+<h3 id="res">result</h3> 
     <script src="jsFunction.js"></script>
   </body>
 </html>

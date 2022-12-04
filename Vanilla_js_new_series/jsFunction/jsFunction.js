@@ -7,9 +7,9 @@ todo: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 
 //** regular function */
 function calculate (a, b, operator){
-    let op =operator;
-    let c =0;
-    switch(op){
+    a =parseInt(a);
+    b=parseInt(b);
+    switch(operator){
         case '+': return a+b;
         case '-': return a-b;
                 break;
@@ -24,14 +24,20 @@ function calculate (a, b, operator){
                  break;
     }
 }
-calculate(5, 6,"+");
 
+
+
+function calculateMethod(){
+    var a = document.getElementById("param1").value;
+    var b = document.getElementById("param2").value;
+    var op = document.getElementById("operator").value;
+    var c = calculate(a,b,op);
+    document.getElementById("res").innerHTML=c;
+}
 
 //**function expression */
 function calculate1 (a, b, operator){
-    let op =operator;
-    let c =0;
-    switch(op){
+    switch(operator){
         case '+': return a+b;
         case '-': return a-b;
                 break;
